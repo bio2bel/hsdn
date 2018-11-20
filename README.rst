@@ -1,6 +1,8 @@
 Bio2BEL HSDN |build|
-==================================================
+====================
 Converts the human symptoms-disease network produced by Zhou and Himmelstein to BEL
+
+Big thanks to Daniel Himmelstein for preprocessing this data in his repository at: https://github.com/dhimmel/hsdn
 
 Installation |pypi_version| |python_versions| |pypi_license|
 ------------------------------------------------------------
@@ -20,8 +22,7 @@ or from the latest code on `GitHub <https://github.com/bio2bel/hsdn>`_ with:
 
 Setup
 -----
-HSDN can be downloaded and populated from either the
-Python REPL or the automatically installed command line utility.
+This repository does not currently cache the data, but only wraps conversion to BEL.
 
 Python REPL
 ~~~~~~~~~~~
@@ -29,13 +30,7 @@ Python REPL
 
     >>> import bio2bel_hsdn
     >>> hsdn_manager = bio2bel_hsdn.Manager()
-    >>> hsdn_manager.populate()
-
-Command Line Utility
-~~~~~~~~~~~~~~~~~~~~
-.. code-block:: sh
-
-    bio2bel_hsdn populate
+    >>> graph = hsdn_manager.to_bel()
 
 
 .. |build| image:: https://travis-ci.com/bio2bel/hsdn.svg?branch=master
