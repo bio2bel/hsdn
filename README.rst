@@ -1,5 +1,5 @@
-Bio2BEL HSDN |build|
-====================
+Bio2BEL HSDN |build| |zenodo|
+=============================
 Converts the human symptoms-disease network produced by Zhou and Himmelstein to BEL
 
 Big thanks to Daniel Himmelstein for preprocessing this data in his repository at: https://github.com/dhimmel/hsdn
@@ -53,3 +53,6 @@ Python REPL
 
 .. |pypi_license| image:: https://img.shields.io/pypi/l/bio2bel_hsdn.svg
     :alt: MIT License
+
+.. |zenodo| image:: https://zenodo.org/badge/158366852.svg
+   :target: https://zenodo.org/badge/latestdoi/158366852
