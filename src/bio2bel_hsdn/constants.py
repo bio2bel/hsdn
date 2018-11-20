@@ -15,7 +15,7 @@ __all__ = [
     'HSDN_URL',
 ]
 
-VERSION = '0.0.1-dev'
+VERSION = '0.0.1'
 MODULE_NAME = 'bio2bel_hsdn'
 DATA_DIR = get_data_dir(MODULE_NAME)
 
