@@ -16,7 +16,7 @@ __all__ = [
 ]
 
 VERSION = '0.0.2-dev'
-MODULE_NAME = 'bio2bel_hsdn'
+MODULE_NAME = 'hsdn'
 DATA_DIR = get_data_dir(MODULE_NAME)
 
 
